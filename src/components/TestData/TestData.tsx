@@ -72,7 +72,9 @@ export const TestData = () => {
 
                   <DetailRow
                     label="Expected Arrival"
-                    data={train.estimatedTimeOfArrival.toLocaleTimeString()}
+                    data={new Date(
+                      train.estimatedTimeOfArrival
+                    ).toLocaleTimeString()}
                   />
 
                   <DetailRow

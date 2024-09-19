@@ -53,10 +53,10 @@ const TrainSchema = z
     nextStaNm: z.string(),
 
     // Date-time format stamp for when the prediction was generated
-    prdt: z.coerce.date(),
+    prdt: z.string(),
 
     // Date-time format stamp for when a train is expected to arrive/depart
-    arrT: z.coerce.date(),
+    arrT: z.string(),
 
     // Indicates that Train Tracker is now declaring “Approaching” or “Due” on site for this train
     isApp: z.coerce.number().transform(Boolean),
