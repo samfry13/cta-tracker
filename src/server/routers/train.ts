@@ -15,7 +15,6 @@ export const trainRouter = {
     url.searchParams.set("rt", Object.values(TrainLineIds).join(","));
 
     const response = await fetch(url);
-
     return await response.json();
   }),
 } satisfies TRPCRouterRecord;

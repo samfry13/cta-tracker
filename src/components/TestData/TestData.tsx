@@ -1,32 +1,95 @@
 "use client";
 
-import { useState } from "react";
 import { trpc } from "~/lib/trpc";
 
-const useRandomNumber = () => {
-  const [currentNumber, setCurrentNumber] = useState(Infinity);
+const DetailRow = ({ label, data }: { label: string; data?: string }) => (
+  <div className="flex justify-between">
+    <dt>{label}</dt>
+    <dd>{data ?? "Unknown"}</dd>
+  </div>
+);
 
-  trpc.randomNumber.useSubscription(undefined, {
-    onData(newNumber) {
-      setCurrentNumber(newNumber);
-    },
-  });
-
-  return currentNumber;
-};
+const Indicator = ({
+  delayed,
+  arriving,
+}: {
+  delayed: boolean;
+  arriving: boolean;
+}) => (
+  <span className="relative flex h-3 w-3">
+    {arriving && (
+      <span
+        className={`animate-ping absolute inline-flex h-full w-full rounded-full ${
+          delayed ? "bg-red-400" : "bg-sky-400"
+        } opacity-75`}
+      />
+    )}
+    <span
+      className={`relative inline-flex rounded-full h-3 w-3 ${
+        delayed ? "bg-red-500" : "bg-sky-500"
+      }`}
+    ></span>
+  </span>
+);
 
 export const TestData = () => {
-  const randomNumber = useRandomNumber();
-
-  const { data } = trpc.train.positions.useQuery();
+  const { data: positions } = trpc.train.positions.useQuery(undefined, {
+    refetchInterval: 1e4, // 10 seconds
+  });
 
   return (
-    <div>
-      <p>Test Subscription: {randomNumber.toFixed(2)}</p>
-      <p>Test Train Data:</p>
-      <pre>
-        <code>{JSON.stringify(data, null, 2)}</code>
-      </pre>
+    <div className="max-w-md m-auto space-y-2">
+      {!positions && <div>Loading...</div>}
+      {positions?.ctatt.routes.map((route) => (
+        <>
+          <details
+            key={`route-${route.name}`}
+            className="cursor-pointer space-y-2"
+          >
+            <summary>Route: {route.name}</summary>
+            {route.trains.map((train) => (
+              <details
+                key={`train-${train.runId}`}
+                className="pl-3 cursor-pointer"
+              >
+                <summary className="flex gap-2 items-center">
+                  Train: #{train.runId}
+                  <Indicator
+                    arriving={train.isApproaching}
+                    delayed={train.isDelayed}
+                  />
+                </summary>
+                <dl className="divide-y space-y-2 pl-3">
+                  <DetailRow
+                    label="Destination"
+                    data={`${train.destinationName} (${train.destinationStopId})`}
+                  />
+
+                  <DetailRow
+                    label="Next Station"
+                    data={`${train.nextStationName} (${train.nextStationId})`}
+                  />
+
+                  <DetailRow
+                    label="Expected Arrival"
+                    data={train.estimatedTimeOfArrival.toLocaleTimeString()}
+                  />
+
+                  <DetailRow
+                    label="Is Approaching"
+                    data={train.isApproaching ? "yes" : "no"}
+                  />
+
+                  <DetailRow
+                    label="Is Delayed"
+                    data={train.isDelayed ? "yes" : "no"}
+                  />
+                </dl>
+              </details>
+            ))}
+          </details>
+        </>
+      ))}
     </div>
   );
 };
