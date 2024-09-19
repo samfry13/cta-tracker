@@ -18,5 +18,15 @@ const useRandomNumber = () => {
 export const TestData = () => {
   const randomNumber = useRandomNumber();
 
-  return <div>Test Data: {randomNumber.toFixed(2)}</div>;
+  const { data } = trpc.train.positions.useQuery();
+
+  return (
+    <div>
+      <p>Test Subscription: {randomNumber.toFixed(2)}</p>
+      <p>Test Train Data:</p>
+      <pre>
+        <code>{JSON.stringify(data, null, 2)}</code>
+      </pre>
+    </div>
+  );
 };

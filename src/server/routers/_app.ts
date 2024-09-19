@@ -1,6 +1,7 @@
 import { observable } from "@trpc/server/observable";
 import { publicProcedure, router } from "../trpc";
 import { createCallerFactory } from "@trpc/server/unstable-core-do-not-import";
+import { trainRouter } from "./train";
 
 export const appRouter = router({
   healthcheck: publicProcedure.query(() => "yay!"),
@@ -15,6 +16,8 @@ export const appRouter = router({
       };
     });
   }),
+
+  train: trainRouter,
 });
 
 export type AppRouter = typeof appRouter;
