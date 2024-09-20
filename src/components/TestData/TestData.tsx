@@ -1,5 +1,7 @@
 "use client";
 
+import { intlFormatDistance } from "date-fns";
+import { fromZonedTime } from "date-fns-tz";
 import { trpc } from "~/lib/trpc";
 
 const DetailRow = ({ label, data }: { label: string; data?: string }) => (
@@ -47,48 +49,56 @@ export const TestData = () => {
             className="cursor-pointer space-y-2"
           >
             <summary>Route: {route.name}</summary>
-            {route.trains.map((train) => (
-              <details
-                key={`train-${train.runId}`}
-                className="pl-3 cursor-pointer"
-              >
-                <summary className="flex gap-2 items-center">
-                  Train: #{train.runId}
-                  <Indicator
-                    arriving={train.isApproaching}
-                    delayed={train.isDelayed}
-                  />
-                </summary>
-                <dl className="divide-y space-y-2 pl-3">
-                  <DetailRow
-                    label="Destination"
-                    data={`${train.destinationName} (${train.destinationStopId})`}
-                  />
+            {route.trains.map((train) => {
+              const eta = fromZonedTime(
+                new Date(train.estimatedTimeOfArrival),
+                "America/Chicago"
+              );
 
-                  <DetailRow
-                    label="Next Station"
-                    data={`${train.nextStationName} (${train.nextStationId})`}
-                  />
+              return (
+                <details
+                  key={`train-${train.runId}`}
+                  className="pl-3 cursor-pointer"
+                >
+                  <summary className="flex gap-2 items-center">
+                    Train: #{train.runId}
+                    <Indicator
+                      arriving={train.isApproaching}
+                      delayed={train.isDelayed}
+                    />
+                  </summary>
+                  <dl className="divide-y space-y-2 pl-3">
+                    <DetailRow
+                      label="Destination"
+                      data={`${train.destinationName} (${train.destinationStopId})`}
+                    />
 
-                  <DetailRow
-                    label="Expected Arrival"
-                    data={new Date(
-                      train.estimatedTimeOfArrival
-                    ).toLocaleTimeString()}
-                  />
+                    <DetailRow
+                      label="Next Station"
+                      data={`${train.nextStationName} (${train.nextStationId})`}
+                    />
 
-                  <DetailRow
-                    label="Is Approaching"
-                    data={train.isApproaching ? "yes" : "no"}
-                  />
+                    <DetailRow
+                      label="Expected Arrival"
+                      data={`${intlFormatDistance(
+                        eta,
+                        new Date()
+                      )} (${eta.toLocaleTimeString()})`}
+                    />
 
-                  <DetailRow
-                    label="Is Delayed"
-                    data={train.isDelayed ? "yes" : "no"}
-                  />
-                </dl>
-              </details>
-            ))}
+                    <DetailRow
+                      label="Is Approaching"
+                      data={train.isApproaching ? "yes" : "no"}
+                    />
+
+                    <DetailRow
+                      label="Is Delayed"
+                      data={train.isDelayed ? "yes" : "no"}
+                    />
+                  </dl>
+                </details>
+              );
+            })}
           </details>
         </>
       ))}
