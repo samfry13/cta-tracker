@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body>
+    <html className="h-full">
+      <body className="h-full">
         <TRPCProviders>{children}</TRPCProviders>
       </body>
     </html>

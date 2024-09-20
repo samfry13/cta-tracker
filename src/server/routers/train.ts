@@ -1,6 +1,9 @@
 import { TRPCRouterRecord } from "@trpc/server";
 import { publicProcedure } from "../trpc";
-import { TrainLineIds, TrainPositionSchema } from "~/lib/trainsSchema";
+import { TrainLineIds, TrainPositionSchema } from "~/lib/schemas/trains.schema";
+import { z } from "zod";
+import { StationSchema } from "~/lib/schemas/stations.schema";
+import stationsData from "../../../public/stations.json";
 
 export const trainRouter = {
   positions: publicProcedure.output(TrainPositionSchema).query(async () => {
@@ -16,5 +19,8 @@ export const trainRouter = {
 
     const response = await fetch(url);
     return await response.json();
+  }),
+  stations: publicProcedure.output(z.array(StationSchema)).query(async () => {
+    return stationsData;
   }),
 } satisfies TRPCRouterRecord;

@@ -1,7 +1,11 @@
-import { caller } from "~/server/routers/_app";
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("~/components/Map"), { ssr: false });
 
 export default async function Home() {
-  const response = await caller.healthcheck();
-
-  return <div>Home Page: {response}</div>;
+  return (
+    <div className="h-full">
+      <Map />
+    </div>
+  );
 }

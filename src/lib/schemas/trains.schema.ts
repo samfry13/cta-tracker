@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { ValueOf } from "../utils";
 
 export const TrainDirection = {
   Northbound: "1",
@@ -16,7 +17,8 @@ export const TrainLineIds = {
   Pink: "pink",
   Yellow: "y",
 } as const;
-const TrainLineIdSchema = z.nativeEnum(TrainLineIds);
+export const TrainLineIdSchema = z.nativeEnum(TrainLineIds);
+export type TrainLineIds = ValueOf<typeof TrainLineIds>;
 
 const LocationsErrorCodes = {
   None: "0",
@@ -89,6 +91,7 @@ const TrainSchema = z
     isApproaching: arg.isApp,
     isDelayed: arg.isDly,
   }));
+export type Train = z.infer<typeof TrainSchema>;
 
 const RouteSchema = z
   .object({
