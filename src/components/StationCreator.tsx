@@ -1,7 +1,7 @@
 import { Circle, Popup, useMapEvents } from "react-leaflet";
 import { z } from "zod";
 import { MarkerSchema } from "~/lib/schemas/stations.schema";
-import { TrainLineIds } from "~/lib/schemas/trains.schema";
+import { TrainLineId, TrainLineIds } from "~/lib/schemas/trains.schema";
 import { trpc } from "~/lib/trpc";
 import { roundToNearestQuarter, useLocalStorage } from "~/lib/utils";
 
@@ -119,10 +119,16 @@ export const StationCreator = () => {
                 What Line is this?
                 <select
                   value={marker.line}
-                  onChange={(e) => updateMarker(i, "line", e.target.value)}
+                  onChange={(e) =>
+                    updateMarker(i, "line", e.target.value as TrainLineId)
+                  }
                 >
                   <option>Line...</option>
-                  {Object.keys(TrainLineIds).map((id) => (
+                  {(
+                    Object.keys(TrainLineIds) as Array<
+                      keyof typeof TrainLineIds
+                    >
+                  ).map((id) => (
                     <option key={`trainOption-${id}`} value={TrainLineIds[id]}>
                       {id}
                     </option>

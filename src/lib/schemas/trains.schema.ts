@@ -18,7 +18,7 @@ export const TrainLineIds = {
   Yellow: "y",
 } as const;
 export const TrainLineIdSchema = z.nativeEnum(TrainLineIds);
-export type TrainLineIds = ValueOf<typeof TrainLineIds>;
+export type TrainLineId = ValueOf<typeof TrainLineIds>;
 
 const LocationsErrorCodes = {
   None: "0",
