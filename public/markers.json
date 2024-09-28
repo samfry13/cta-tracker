@@ -3,1139 +3,1330 @@
     "lat": 423.25,
     "lng": 350,
     "stopIds": ["30182", "30181"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40930"
   },
   {
     "lat": 395,
     "lng": 418.5,
     "stopIds": ["30185", "30186"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40960"
   },
   {
     "lat": 362.5,
     "lng": 446,
     "stopIds": ["30219", "30220"],
-    "line": "org"
+    "line": "org",
+    "mapId": "41150"
   },
   {
     "lat": 337.5,
     "lng": 446.5,
     "stopIds": ["30060", "30061"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40310"
   },
   {
     "lat": 320.75,
     "lng": 581.75,
     "stopIds": ["30022", "30023"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40120"
   },
   {
     "lat": 288.75,
     "lng": 619.5,
     "stopIds": ["30205", "30206"],
-    "line": "org"
+    "line": "org",
+    "mapId": "41060"
   },
   {
     "lat": 255,
     "lng": 659.25,
     "stopIds": ["30215", "30216"],
-    "line": "org"
+    "line": "org",
+    "mapId": "41130"
   },
   {
     "lat": 113.75,
     "lng": 732.75,
     "stopIds": ["30081", "30080"],
-    "line": "org"
+    "line": "org",
+    "mapId": "41400"
   },
   {
     "lat": 132.25,
     "lng": 732.75,
     "stopIds": ["30081", "30080"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41400"
   },
   {
     "lat": 151,
     "lng": 733,
     "stopIds": ["30269", "30270"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41400"
   },
   {
     "lat": 168.25,
     "lng": 81,
     "stopIds": ["30088", "30089"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40450"
   },
   {
     "lat": 168,
     "lng": 124.75,
     "stopIds": ["30275", "30276"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41430"
   },
   {
     "lat": 168,
     "lng": 165.75,
     "stopIds": ["30046", "30047"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40240"
   },
   {
     "lat": 168.25,
     "lng": 209.75,
     "stopIds": ["30191", "30192"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40990"
   },
   {
     "lat": 195,
     "lng": 290.5,
     "stopIds": ["30177", "30178"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40910"
   },
   {
     "lat": 195.25,
     "lng": 383.5,
     "stopIds": ["30223", "30224"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41170"
   },
   {
     "lat": 195.5,
     "lng": 461.75,
     "stopIds": ["30237", "30238"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41230"
   },
   {
     "lat": 195.5,
     "lng": 550.5,
     "stopIds": ["30036", "30037"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40190"
   },
   {
     "lat": 193.25,
     "lng": 663.25,
     "stopIds": ["30193", "30194"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41000"
   },
   {
     "lat": 80.75,
     "lng": 293.5,
     "stopIds": ["30139", "30140"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40720"
   },
   {
     "lat": 108.25,
     "lng": 294.25,
     "stopIds": ["30217", "30218"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41140"
   },
   {
     "lat": 124.5,
     "lng": 385,
     "stopIds": ["30099", "30100"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40510"
   },
   {
     "lat": 295,
     "lng": 289.25,
     "stopIds": ["30056", "30057"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40290"
   },
   {
     "lat": 261.25,
     "lng": 289.25,
     "stopIds": ["30183", "30184"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40940"
   },
   {
     "lat": 124.5,
     "lng": 420.25,
     "stopIds": ["30024", "30025"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40130"
   },
   {
     "lat": 124.25,
     "lng": 455.25,
     "stopIds": ["30209", "30210"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41080"
   },
   {
     "lat": 124.5,
     "lng": 488,
     "stopIds": ["30245", "30246"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41270"
   },
   {
     "lat": 132,
     "lng": 515,
     "stopIds": ["30058", "30059"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40300"
   },
   {
     "lat": 132.25,
     "lng": 550.5,
     "stopIds": ["30213", "30214"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41120"
   },
   {
     "lat": 132.5,
     "lng": 663.25,
     "stopIds": ["30381", "30382"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41690"
   },
   {
     "lat": 151.25,
     "lng": 758.25,
     "stopIds": ["30285", "30286"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41490"
   },
   {
     "lat": 472,
     "lng": 681,
     "stopIds": ["30113", "30114"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40580"
   },
   {
     "lat": 451,
     "lng": 681.5,
     "stopIds": ["30082", "30083"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40420"
   },
   {
     "lat": 433.5,
     "lng": 688.25,
     "stopIds": ["30117", "30118"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40600"
   },
   {
     "lat": 417.75,
     "lng": 689,
     "stopIds": ["30028", "30029"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40150"
   },
   {
     "lat": 401.25,
     "lng": 689,
     "stopIds": ["30151", "30152"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40780"
   },
   {
     "lat": 385,
     "lng": 689,
     "stopIds": ["30201", "30202"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "41040"
   },
   {
     "lat": 369,
     "lng": 689,
     "stopIds": ["30086", "30087"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40440"
   },
   {
     "lat": 353.75,
     "lng": 689,
     "stopIds": ["30143", "30144"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40740"
   },
   {
     "lat": 338,
     "lng": 689,
     "stopIds": ["30040", "30041"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40210"
   },
   {
     "lat": 304,
     "lng": 717.25,
     "stopIds": ["30161", "30162"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40830"
   },
   {
     "lat": 303.25,
     "lng": 745,
     "stopIds": ["30199", "30200"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "41030"
   },
   {
     "lat": 283.25,
     "lng": 897.25,
     "stopIds": ["30032", "30033"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40170"
   },
   {
     "lat": 283.25,
     "lng": 916.25,
     "stopIds": ["30032", "30033"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40170"
   },
   {
     "lat": 257.25,
     "lng": 897.25,
     "stopIds": ["30295", "30296"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "41510"
   },
   {
     "lat": 257.25,
     "lng": 917,
     "stopIds": ["30295", "30296"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41510"
   },
   {
     "lat": 233,
     "lng": 897.75,
     "stopIds": ["30221", "30222"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "41160"
   },
   {
     "lat": 233,
     "lng": 916.75,
     "stopIds": ["30221", "30222"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41160"
   },
   {
     "lat": 551.25,
     "lng": 779.75,
     "stopIds": ["30076", "30077"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40390"
   },
   {
     "lat": 535,
     "lng": 777.25,
     "stopIds": ["30189", "30190"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40980"
   },
   {
     "lat": 518.5,
     "lng": 774.5,
     "stopIds": ["30034", "30035"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40180"
   },
   {
     "lat": 489,
     "lng": 769.75,
     "stopIds": ["30001", "30002"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40010"
   },
   {
     "lat": 445.25,
     "lng": 775.5,
     "stopIds": ["30187", "30188"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40970"
   },
   {
     "lat": 418.25,
     "lng": 784.75,
     "stopIds": ["30179", "30180"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40920"
   },
   {
     "lat": 383.75,
     "lng": 784.75,
     "stopIds": ["30048", "30049"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40250"
   },
   {
     "lat": 359.25,
     "lng": 784.75,
     "stopIds": ["30042", "30043"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40220"
   },
   {
     "lat": 336.25,
     "lng": 784.75,
     "stopIds": ["30157", "30158"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40810"
   },
   {
     "lat": 275.25,
     "lng": 785,
     "stopIds": ["30092", "30093"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40470"
   },
   {
     "lat": 253.5,
     "lng": 785,
     "stopIds": ["30068", "30069"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40350"
   },
   {
     "lat": 232.75,
     "lng": 785,
     "stopIds": ["30084", "30085"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40430"
   },
   {
     "lat": 535,
     "lng": 921,
     "stopIds": ["30003", "30004"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40020"
   },
   {
     "lat": 519.5,
     "lng": 921,
     "stopIds": ["30263", "30264"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41350"
   },
   {
     "lat": 504,
     "lng": 921,
     "stopIds": ["30119", "30120"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40610"
   },
   {
     "lat": 488.25,
     "lng": 921,
     "stopIds": ["30243", "30244"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41260"
   },
   {
     "lat": 473,
     "lng": 921,
     "stopIds": ["30054", "30055"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40280"
   },
   {
     "lat": 457.25,
     "lng": 921,
     "stopIds": ["30135", "30136"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40700"
   },
   {
     "lat": 439.25,
     "lng": 920.75,
     "stopIds": ["30094", "30009"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40480"
   },
   {
     "lat": 420,
     "lng": 920.75,
     "stopIds": ["30005", "30006"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40030"
   },
   {
     "lat": 397.25,
     "lng": 919.5,
     "stopIds": ["30291", "30292"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41670"
   },
   {
     "lat": 364,
     "lng": 918.25,
     "stopIds": ["30207", "30208"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41070"
   },
   {
     "lat": 343,
     "lng": 916.25,
     "stopIds": ["30265", "30266"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41360"
   },
   {
     "lat": 566,
     "lng": 1354,
     "stopIds": ["30171", "30172"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40890"
   },
   {
     "lat": 546,
     "lng": 1354,
     "stopIds": ["30159", "30160"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40820"
   },
   {
     "lat": 526,
     "lng": 1354,
     "stopIds": ["30044", "30045"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40230"
   },
   {
     "lat": 505.5,
     "lng": 1354.25,
     "stopIds": ["30145", "30146"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40750"
   },
   {
     "lat": 467.75,
     "lng": 1318.25,
     "stopIds": ["30247", "30248"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41280"
   },
   {
     "lat": 442.75,
     "lng": 1283,
     "stopIds": ["30259", "30260"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41330"
   },
   {
     "lat": 421.5,
     "lng": 1251.25,
     "stopIds": ["30107", "30108"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40550"
   },
   {
     "lat": 400.5,
     "lng": 1220.5,
     "stopIds": ["30239", "30240"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41240"
   },
   {
     "lat": 386,
     "lng": 1170.25,
     "stopIds": ["30012", "30013"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40060"
   },
   {
     "lat": 374.5,
     "lng": 1132.5,
     "stopIds": ["30197", "30198"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41020"
   },
   {
     "lat": 356.5,
     "lng": 1105.25,
     "stopIds": ["30111", "30112"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40570"
   },
   {
     "lat": 334.75,
     "lng": 1074.25,
     "stopIds": ["30129", "30130"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40670"
   },
   {
     "lat": 312.5,
     "lng": 1042.75,
     "stopIds": ["30115", "30116"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40590"
   },
   {
     "lat": 288.5,
     "lng": 1009.25,
     "stopIds": ["30062", "30063"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40320"
   },
   {
     "lat": 258.25,
     "lng": 968,
     "stopIds": ["30271", "30272"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41410"
   },
   {
     "lat": 241.75,
     "lng": 944.75,
     "stopIds": ["30095", "30096"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40490"
   },
   {
     "lat": 137.75,
     "lng": 944,
     "stopIds": ["30064", "30065"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40330"
   },
   {
     "lat": 138.25,
     "lng": 962,
     "stopIds": ["30279", "30280"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41450"
   },
   {
     "lat": 157,
     "lng": 977,
     "stopIds": ["30121", "30122"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40630"
   },
   {
     "lat": 220,
     "lng": 990.75,
     "stopIds": ["30125", "30126"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40650"
   },
   {
     "lat": 219.75,
     "lng": 1095,
     "stopIds": ["30233", "30234"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41220"
   },
   {
     "lat": 219.75,
     "lng": 1170,
     "stopIds": ["30255", "30256"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41320"
   },
   {
     "lat": 219.75,
     "lng": 1224.5,
     "stopIds": ["30273", "30274"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41420"
   },
   {
     "lat": 219.75,
     "lng": 1249.75,
     "stopIds": ["30016", "30017"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40080"
   },
   {
     "lat": 219.5,
     "lng": 1287.75,
     "stopIds": ["30105", "30106"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40540"
   },
   {
     "lat": 219.75,
     "lng": 1325,
     "stopIds": ["30149", "30150"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40770"
   },
   {
     "lat": 219.75,
     "lng": 1349,
     "stopIds": ["30229", "30230"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41200"
   },
   {
     "lat": 219.75,
     "lng": 1373,
     "stopIds": ["30066", "30067"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40340"
   },
   {
     "lat": 219.5,
     "lng": 1396.75,
     "stopIds": ["30267", "30268"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41380"
   },
   {
     "lat": 219.5,
     "lng": 1421.5,
     "stopIds": ["30169", "30170"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40880"
   },
   {
     "lat": 219.5,
     "lng": 1446.5,
     "stopIds": ["30147", "30148"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40760"
   },
   {
     "lat": 220.25,
     "lng": 1475,
     "stopIds": ["30251", "30252"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41300"
   },
   {
     "lat": 226,
     "lng": 1525.25,
     "stopIds": ["30020", "30021"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40100"
   },
   {
     "lat": 239,
     "lng": 1573,
     "stopIds": ["30227", "30228"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41190"
   },
   {
     "lat": 251.25,
     "lng": 1616,
     "stopIds": ["30173", "30174"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40900"
   },
   {
     "lat": 179.75,
     "lng": 955.25,
     "stopIds": ["30137", "30138"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40710"
   },
   {
     "lat": 189,
     "lng": 1016,
     "stopIds": ["30155", "30156"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40800"
   },
   {
     "lat": 238.75,
     "lng": 1072.25,
     "stopIds": ["30127", "30128"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40660"
   },
   {
     "lat": 238.75,
     "lng": 1095,
     "stopIds": ["30235", "30236"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41220"
   },
   {
     "lat": 238.75,
     "lng": 1118,
     "stopIds": ["30103", "30104"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40530"
   },
   {
     "lat": 238.75,
     "lng": 1146.75,
     "stopIds": ["30231", "30232"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41210"
   },
   {
     "lat": 238.75,
     "lng": 1170.25,
     "stopIds": ["30257", "30258"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41320"
   },
   {
     "lat": 239,
     "lng": 1287.75,
     "stopIds": ["30385", "30386"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40540"
   },
   {
     "lat": 270.25,
     "lng": 1611.5,
     "stopIds": ["30175", "30176"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40900"
   },
   {
     "lat": 276.75,
     "lng": 1659.75,
     "stopIds": ["30163", "30164"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40840"
   },
   {
     "lat": 277.5,
     "lng": 1685,
     "stopIds": ["30052", "30052"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40270"
   },
   {
     "lat": 278.5,
     "lng": 1708.75,
     "stopIds": ["30133", "30134"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40690"
   },
   {
     "lat": 279.25,
     "lng": 1731.75,
     "stopIds": ["30010", "30011"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40050"
   },
   {
     "lat": 279.75,
     "lng": 1754,
     "stopIds": ["30101", "30102"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40520"
   },
   {
     "lat": 281,
     "lng": 1777.5,
     "stopIds": ["30078", "30079"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40400"
   },
   {
     "lat": 282,
     "lng": 1801.25,
     "stopIds": ["30241", "30242"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41250"
   },
   {
     "lat": 282.75,
     "lng": 1826.75,
     "stopIds": ["30203", "30204"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41050"
   },
   {
     "lat": 197.75,
     "lng": 955.25,
     "stopIds": ["30137", "30138"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40710"
   },
   {
     "lat": 199.5,
     "lng": 1000.5,
     "stopIds": ["30125", "30126"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40650"
   },
   {
     "lat": 257,
     "lng": 1072.25,
     "stopIds": ["30127", "30128"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40660"
   },
   {
     "lat": 257,
     "lng": 1095,
     "stopIds": ["30235", "30236"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41220"
   },
   {
     "lat": 257.25,
     "lng": 1117.75,
     "stopIds": ["30103", "30104"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40530"
   },
   {
     "lat": 257.25,
     "lng": 1146.75,
     "stopIds": ["30231", "30232"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41210"
   },
   {
     "lat": 257,
     "lng": 1170,
     "stopIds": ["30257", "30258"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41320"
   },
   {
     "lat": 277.5,
     "lng": 1190.25,
     "stopIds": ["30070", "30071"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40360"
   },
   {
     "lat": 297.75,
     "lng": 1190.25,
     "stopIds": ["30253", "30254"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41310"
   },
   {
     "lat": 320.25,
     "lng": 1225.25,
     "stopIds": ["30277", "30278"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41440"
   },
   {
     "lat": 320.25,
     "lng": 1253,
     "stopIds": ["30281", "30282"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41460"
   },
   {
     "lat": 320.25,
     "lng": 1282,
     "stopIds": ["30287", "30288"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41500"
   },
   {
     "lat": 329.75,
     "lng": 1316.5,
     "stopIds": ["30018", "30019"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40090"
   },
   {
     "lat": 345.75,
     "lng": 1319,
     "stopIds": ["30283", "30284"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41480"
   },
   {
     "lat": 361,
     "lng": 1319,
     "stopIds": ["30195", "30196"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41010"
   },
   {
     "lat": 376.25,
     "lng": 1319,
     "stopIds": ["30167", "30168"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40870"
   },
   {
     "lat": 391.75,
     "lng": 1319.25,
     "stopIds": ["30225", "30226"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41180"
   },
   {
     "lat": 410,
     "lng": 1335.25,
     "stopIds": ["30249", "30250"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41290"
   },
   {
     "lat": 288.25,
     "lng": 1607.25,
     "stopIds": ["30175", "30176"],
-    "line": "y"
+    "line": "y",
+    "mapId": "40900"
   },
   {
     "lat": 433.5,
     "lng": 1648.25,
     "stopIds": ["30297", "30298"],
-    "line": "y"
+    "line": "y",
+    "mapId": "41680"
   },
   {
     "lat": 448.25,
     "lng": 1706,
     "stopIds": ["30026", "30027"],
-    "line": "y"
+    "line": "y",
+    "mapId": "40140"
   },
   {
     "lat": 334,
     "lng": 1937.5,
     "stopIds": ["30261", "30262"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "41340"
   },
   {
     "lat": 268,
     "lng": 2046,
     "stopIds": ["30014", "30015"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40070"
   },
   {
     "lat": 267.75,
     "lng": 2141,
     "stopIds": ["30153", "30154"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40790"
   },
   {
     "lat": 268.75,
     "lng": 2235.25,
     "stopIds": ["30072", "30073"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40370"
   },
   {
     "lat": 316.5,
     "lng": 2308.25,
     "stopIds": ["30374", "30375"],
-    "line": "blue"
+    "line": "blue",
+    "mapId": "40380"
   },
   {
     "lat": 222,
     "lng": 2046,
     "stopIds": ["30109", "30110"],
-    "line": "red"
+    "line": "red",
+    "mapId": "40560"
   },
   {
     "lat": 221.5,
     "lng": 2140.75,
     "stopIds": ["30211", "30212"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41090"
   },
   {
     "lat": 222.75,
     "lng": 2285.5,
     "stopIds": ["30289", "30290"],
-    "line": "red"
+    "line": "red",
+    "mapId": "41660"
   },
   {
     "lat": 413.25,
     "lng": 2438,
     "stopIds": ["30090", "30091"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40460"
   },
   {
     "lat": 413.5,
     "lng": 2240.25,
     "stopIds": ["30142"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40730"
   },
   {
     "lat": 413.5,
     "lng": 2068.25,
     "stopIds": ["30008"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40040"
   },
   {
     "lat": 333.5,
     "lng": 1970.75,
     "stopIds": ["30030"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40160"
   },
   {
     "lat": 244.5,
     "lng": 1970,
     "stopIds": ["30165"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40850"
   },
   {
     "lat": 128.25,
     "lng": 2084.5,
     "stopIds": ["30131"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40680"
   },
   {
     "lat": 128.25,
     "lng": 2240.25,
     "stopIds": ["30383"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "41700"
   },
   {
     "lat": 208,
     "lng": 2378.25,
     "stopIds": ["30051"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40260"
   },
   {
     "lat": 316.5,
     "lng": 2378.25,
     "stopIds": ["30075"],
-    "line": "brn"
+    "line": "brn",
+    "mapId": "40380"
   },
   {
     "lat": 400.5,
     "lng": 2438,
     "stopIds": ["30090", "30091"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40460"
   },
   {
     "lat": 316.5,
     "lng": 2365.5,
     "stopIds": ["30074"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40380"
   },
   {
     "lat": 316.5,
     "lng": 2353,
     "stopIds": ["30074"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40380"
   },
   {
     "lat": 316.5,
     "lng": 2341,
     "stopIds": ["30074", "30075"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40380"
   },
   {
     "lat": 316.5,
     "lng": 2328.5,
     "stopIds": ["30074"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40380"
   },
   {
     "lat": 208,
     "lng": 2365.75,
     "stopIds": ["30050"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40260"
   },
   {
     "lat": 208,
     "lng": 2353.25,
     "stopIds": ["30050"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40260"
   },
   {
     "lat": 208,
     "lng": 2340.75,
     "stopIds": ["30050", "30051"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40260"
   },
   {
     "lat": 208,
     "lng": 2328.25,
     "stopIds": ["30050"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40260"
   },
   {
     "lat": 140.5,
     "lng": 2240.25,
     "stopIds": ["30384"],
-    "line": "p"
+    "line": "p",
+    "mapId": "41700"
   },
   {
     "lat": 153,
     "lng": 2240.25,
     "stopIds": ["30384"],
-    "line": "org"
+    "line": "org",
+    "mapId": "41700"
   },
   {
     "lat": 165.5,
     "lng": 2240.25,
     "stopIds": ["30383", "30384"],
-    "line": "g"
+    "line": "g",
+    "mapId": "41700"
   },
   {
     "lat": 177.75,
     "lng": 2240.25,
     "stopIds": ["30384"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "41700"
   },
   {
     "lat": 140.5,
     "lng": 2084.5,
     "stopIds": ["30132"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40680"
   },
   {
     "lat": 152.75,
     "lng": 2084.5,
-    "stopIds": ["30132"]
+    "stopIds": ["30132"],
+    "line": "pink",
+    "mapId": "40680"
   },
   {
     "lat": 165.25,
     "lng": 2084.5,
     "stopIds": ["30132", "30131"],
-    "line": "g"
+    "line": "g",
+    "mapId": "40680"
   },
   {
     "lat": 177.75,
     "lng": 2084.5,
     "stopIds": ["30132"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40680"
   },
   {
     "lat": 244.5,
     "lng": 1983,
     "stopIds": ["30166"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40850"
   },
   {
     "lat": 244.5,
     "lng": 1995.5,
     "stopIds": ["30166"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40850"
   },
   {
     "lat": 244.5,
     "lng": 2007.75,
     "stopIds": ["30166"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40850"
   },
   {
     "lat": 333.5,
     "lng": 1983.25,
     "stopIds": ["30031"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40160"
   },
   {
     "lat": 333.5,
     "lng": 1995.5,
     "stopIds": ["30031"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40160"
   },
   {
     "lat": 333.5,
     "lng": 2008,
     "stopIds": ["30031"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40160"
   },
   {
     "lat": 400.75,
     "lng": 2068.25,
     "stopIds": ["30007"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40040"
   },
   {
     "lat": 388.75,
     "lng": 2068.25,
     "stopIds": ["30007"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40040"
   },
   {
     "lat": 376.25,
     "lng": 2068.25,
     "stopIds": ["30007"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40040"
   },
   {
     "lat": 401,
     "lng": 2240.25,
     "stopIds": ["30141"],
-    "line": "p"
+    "line": "p",
+    "mapId": "40730"
   },
   {
     "lat": 388.5,
     "lng": 2240.25,
     "stopIds": ["30141"],
-    "line": "org"
+    "line": "org",
+    "mapId": "40730"
   },
   {
     "lat": 375.5,
     "lng": 2240.25,
     "stopIds": ["30141"],
-    "line": "pink"
+    "line": "pink",
+    "mapId": "40730"
   }
 ]

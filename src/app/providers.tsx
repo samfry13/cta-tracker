@@ -60,7 +60,7 @@ export function TRPCProviders(props: Readonly<{ children: React.ReactNode }>) {
           }),
         }),
       ],
-    })
+    }),
   );
   return (
     <QueryClientProvider client={getQueryClient()}>

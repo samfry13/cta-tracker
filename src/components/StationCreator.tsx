@@ -9,7 +9,7 @@ export const StationCreator = () => {
   const [markers, setMarkers] = useLocalStorage(
     "stations",
     z.array(MarkerSchema),
-    []
+    [],
   );
   useMapEvents({
     click({ latlng: { lat, lng } }) {
@@ -26,22 +26,22 @@ export const StationCreator = () => {
 
   const updateObjectValueAtIndex = <
     TObj extends object,
-    TKey extends keyof TObj
+    TKey extends keyof TObj,
   >(
     array: TObj[],
     index: number,
     key: TKey,
-    newValue: TObj[TKey]
+    newValue: TObj[TKey],
   ) => {
     return array.map((prevValue, i) =>
-      index === i ? { ...prevValue, [key]: newValue } : prevValue
+      index === i ? { ...prevValue, [key]: newValue } : prevValue,
     );
   };
 
   const getArrayUpdater =
     <TObj extends object>(
       array: TObj[],
-      updater: (newValues: TObj[]) => void
+      updater: (newValues: TObj[]) => void,
     ) =>
     <TKey extends keyof TObj>(i: number, key: TKey, newValue: TObj[TKey]) =>
       updater(updateObjectValueAtIndex(array, i, key, newValue));
@@ -81,8 +81,8 @@ export const StationCreator = () => {
                           i,
                           "stopIds",
                           marker.stopIds.map((prevStop, ind) =>
-                            ind === stopIndex ? e.target.value : prevStop
-                          )
+                            ind === stopIndex ? e.target.value : prevStop,
+                          ),
                         )
                       }
                     />
@@ -91,7 +91,7 @@ export const StationCreator = () => {
                         updateMarker(
                           i,
                           "stopIds",
-                          marker.stopIds.filter((_, ind) => ind !== stopIndex)
+                          marker.stopIds.filter((_, ind) => ind !== stopIndex),
                         )
                       }
                     >

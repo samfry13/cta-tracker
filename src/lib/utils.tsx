@@ -10,7 +10,7 @@ export const roundToNearestQuarter = (num: number) => {
 export const useLocalStorage = <T extends z.ZodSchema>(
   key: string,
   schema: T,
-  initialValue: z.infer<T>
+  initialValue: z.infer<T>,
 ) => {
   const [value, setValue] = useState<z.infer<T>>(() => {
     try {

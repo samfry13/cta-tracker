@@ -3,7 +3,6 @@
 import "leaflet/dist/leaflet.css";
 import { ImageOverlay, MapContainer } from "react-leaflet";
 import { CRS } from "leaflet";
-// import { StationCreator } from "./StationCreator";
 import { StationMonitor } from "./StationMonitor";
 
 export default function Map() {
@@ -25,8 +24,6 @@ export default function Map() {
           [607, 2560],
         ]}
       />
-
-      {/* <StationCreator /> */}
       <StationMonitor />
     </MapContainer>
   );

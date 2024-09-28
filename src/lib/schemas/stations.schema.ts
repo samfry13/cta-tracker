@@ -25,6 +25,7 @@ export const MarkerSchema = z.object({
   lat: z.number(),
   lng: z.number(),
   stopIds: z.array(z.string()),
-  line: TrainLineIdSchema.optional(),
+  mapId: z.string(),
+  line: TrainLineIdSchema,
 });
 export type Marker = z.infer<typeof MarkerSchema>;

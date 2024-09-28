@@ -35,7 +35,7 @@ const Indicator = ({
 );
 
 export const TestData = () => {
-  const { data: positions } = trpc.train.positions.useQuery(undefined, {
+  const { data: positions } = trpc.trains.useQuery(undefined, {
     refetchInterval: 1e4, // 10 seconds
   });
 
@@ -52,7 +52,7 @@ export const TestData = () => {
             {route.trains.map((train) => {
               const eta = fromZonedTime(
                 new Date(train.estimatedTimeOfArrival),
-                "America/Chicago"
+                "America/Chicago",
               );
 
               return (
@@ -82,7 +82,7 @@ export const TestData = () => {
                       label="Expected Arrival"
                       data={`${intlFormatDistance(
                         eta,
-                        new Date()
+                        new Date(),
                       )} (${eta.toLocaleTimeString()})`}
                     />
 
