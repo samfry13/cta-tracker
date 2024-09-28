@@ -29,3 +29,11 @@ export const MarkerSchema = z.object({
   line: TrainLineIdSchema,
 });
 export type Marker = z.infer<typeof MarkerSchema>;
+
+export const EditingMarkerSchema = z.object({
+  lat: z.number(),
+  lng: z.number(),
+  stopIds: z.array(z.string()),
+  mapId: z.string().optional(),
+  line: TrainLineIdSchema.optional(),
+});

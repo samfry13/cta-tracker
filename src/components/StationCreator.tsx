@@ -1,14 +1,14 @@
 import { Circle, Popup, useMapEvents } from "react-leaflet";
 import { z } from "zod";
-import { MarkerSchema } from "~/lib/schemas/stations.schema";
+import { EditingMarkerSchema } from "~/lib/schemas/stations.schema";
 import { TrainLineId, TrainLineIds } from "~/lib/schemas/trains.schema";
-import { trpc } from "~/lib/trpc";
 import { roundToNearestQuarter, useLocalStorage } from "~/lib/utils";
+import stations from "../../public/stations.json";
 
 export const StationCreator = () => {
   const [markers, setMarkers] = useLocalStorage(
     "stations",
-    z.array(MarkerSchema),
+    z.array(EditingMarkerSchema),
     [],
   );
   useMapEvents({
@@ -47,8 +47,6 @@ export const StationCreator = () => {
       updater(updateObjectValueAtIndex(array, i, key, newValue));
 
   const updateMarker = getArrayUpdater(markers, setMarkers);
-
-  const { data: stations } = trpc.train.stations.useQuery();
 
   return (
     <>
